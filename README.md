@@ -25,3 +25,11 @@ The goal of this project is to simplify apartment visualization and improve deci
 ## Author
 
 Created as a learning and real estate productivity project.
+
+## Demo
+This project can analyze apartment layouts and generate:
+- furniture placement ideas
+- space optimization suggestions
+- real estate descriptions
+
+Future goal: add image-based layout analysis and AI API integration.
