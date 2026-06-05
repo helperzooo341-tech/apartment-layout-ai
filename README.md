@@ -57,3 +57,21 @@ Output:
 ## Project Status
 
 Early-stage development.
+
+## Why this project exists
+
+This project was created as a practical tool to help real estate workflows become faster and more visual.
+
+In real estate work, a lot of time is spent:
+- explaining layouts to clients
+- imagining furniture placement
+- writing property descriptions
+
+This tool helps reduce that time by providing structured AI-based suggestions.
+
+## Real-world value
+
+- Speeds up apartment presentation process
+- Helps clients understand space potential
+- Improves listing quality
+- Supports decision-making for buyers and renters
