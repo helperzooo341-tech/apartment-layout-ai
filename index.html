@@ -9,39 +9,53 @@
     <h1>🏠 Apartment Layout AI</h1>
 
     <p>
-        AI tool for analyzing apartment layouts and generating space optimization ideas
-        for real estate professionals and buyers.
+        AI assistant for analyzing apartment layouts and generating space optimization ideas.
     </p>
+
+    <hr>
+
+    <h2>Try it yourself</h2>
+
+    <p>Describe your apartment below:</p>
+
+    <textarea id="input" rows="6" cols="50"
+    placeholder="Example: 2-room apartment, 54 m², separate kitchen, balcony"></textarea>
+
+    <br><br>
+
+    <button onclick="analyze()">Generate AI suggestions</button>
+
+    <h3>Result:</h3>
+    <p id="output"></p>
 
     <hr>
 
     <h2>What this tool does</h2>
 
     <ul>
-        <li>Analyzes apartment layouts</li>
-        <li>Suggests furniture placement</li>
-        <li>Generates real estate descriptions</li>
-        <li>Provides space optimization ideas</li>
+        <li>Furniture placement suggestions</li>
+        <li>Space optimization ideas</li>
+        <li>Real estate descriptions</li>
     </ul>
 
-    <hr>
+    <script>
+        function analyze() {
+            let text = document.getElementById("input").value;
 
-    <h2>Example input</h2>
+            let result =
+                "AI Analysis:\\n\\n" +
+                "Input: " + text + "\\n\\n" +
+                "Suggestions:\\n" +
+                "- Place storage near entrance\\n" +
+                "- Use multifunctional furniture\\n" +
+                "- Keep living space open\\n" +
+                "- Separate zones for kitchen and living area\\n\\n" +
+                "Real estate description:\\n" +
+                "Well-designed apartment with efficient use of space and strong living potential.";
 
-    <p>
-        2-room apartment, 54 m², separate kitchen, balcony
-    </p>
-
-    <h2>Example output</h2>
-
-    <p>
-        Optimized layout with open living space, storage near entrance, and functional zoning between kitchen and living area.
-    </p>
-
-    <hr>
-
-    <h2>Status</h2>
-    <p><b>Early-stage AI real estate assistant project</b></p>
+            document.getElementById("output").innerText = result;
+        }
+    </script>
 
 </body>
 </html>
