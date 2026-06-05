@@ -2,34 +2,58 @@
 
 ## Overview
 
-This project is a simple AI-assisted tool designed to help real estate professionals and users analyze apartment layouts and improve space planning.
+Apartment Layout AI is an open-source project designed to help real estate professionals analyze apartment layouts and generate ideas for space optimization.
 
-## Features
+The project focuses on:
 
-* Apartment layout interpretation (manual input and AI-assisted analysis)
-* Furniture placement suggestions
-* Space optimization ideas
-* Real estate listing description generation
+* furniture placement suggestions
+* apartment layout analysis
+* real estate listing generation
+* visualization planning
 
-## Goal
+## Target Users
 
-The goal of this project is to simplify apartment visualization and improve decision-making for buyers, renters, and real estate agents.
+* Real estate agents
+* Property owners
+* Apartment buyers
+* Interior planning enthusiasts
+
+## Example Use Cases
+
+### Example 1
+
+Input:
+
+* 2-room apartment
+* 54 m²
+* balcony
+* separate kitchen
+
+Output:
+
+* furniture placement suggestions
+* storage optimization ideas
+* listing description draft
+
+### Example 2
+
+Input:
+
+* studio apartment
+* 32 m²
+
+Output:
+
+* zoning recommendations
+* multifunctional furniture ideas
 
 ## Future Development
 
-* Add image-based layout analysis
-* Integrate AI APIs for automatic suggestions
-* Build a simple web interface
-* Create database of typical apartment layouts
+* image-based layout analysis
+* AI-assisted furniture placement
+* AI-generated renovation concepts
+* integration with AI APIs
 
-## Author
+## Project Status
 
-Created as a learning and real estate productivity project.
-
-## Demo
-This project can analyze apartment layouts and generate:
-- furniture placement ideas
-- space optimization suggestions
-- real estate descriptions
-
-Future goal: add image-based layout analysis and AI API integration.
+Early-stage development.
