@@ -75,3 +75,7 @@ This tool helps reduce that time by providing structured AI-based suggestions.
 - Helps clients understand space potential
 - Improves listing quality
 - Supports decision-making for buyers and renters
+
+## Status
+
+MVP (Minimum Viable Product) — early experimental version
